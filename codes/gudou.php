@@ -69,9 +69,9 @@ $cache = new Cache(3600, "cache/");
 $playurl = $cache->get($id . '_cache');
 
 if (!$playurl) {
-    $user = '你的手机号';
-    $ptoken = '你的ptoken';
-    $pserialnumber = '你的pserialnumber';
+    $user = '15920175599';
+    $ptoken = 'hRpm1wpEYTQNluVgwdCghw%3D%3D';
+    $pserialnumber = '094b490bf5400c56';
     $cid = '你的cid值';
     $timestamp = time();
     $nonce = rand(3000000000, 9999999999);
